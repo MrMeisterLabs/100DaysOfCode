@@ -10,7 +10,7 @@ if year % 4 == 0:
         if year % 400 == 0:
             print(f"{year} is a leap year.")
         # If a year is NOT divisible by 400, it is not a leap year
-        if year % 400 != 0:
+        elif year % 400 != 0:
             print(f"{year} is not a leap year.")
     else:
         print(f"{year} is a leap year.")
