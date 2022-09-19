@@ -1,4 +1,4 @@
-Create three 
+# Create three rows of three columns
 
 row1 = ["⬜️", "⬜️", "⬜️"]
 row2 = ["⬜️", "⬜️", "⬜️"]
