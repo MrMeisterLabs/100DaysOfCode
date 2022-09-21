@@ -18,5 +18,19 @@ guess = input("Guess a letter: ").lower()
 
 print("--------------------")
 
+# Approach one
+'''
 if guess in chosen_word:
     print("\nRight Guess")
+else:
+    print("\nIncorrect Guess")
+'''
+
+# Approach two
+
+for alphabet in chosen_word:
+    if alphabet == guess:
+        print("\nRight Guess")
+        break
+    else:
+        print("\nIncorrect guess")
