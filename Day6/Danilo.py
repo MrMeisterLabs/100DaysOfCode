@@ -8,4 +8,3 @@ while not at_goal():
          move()
     elif wall_on_right():
         turn_left()
-        move()
