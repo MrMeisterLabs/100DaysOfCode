@@ -13,7 +13,7 @@ words_list = word_list
 chosen_word = random.choice(words_list)
 word_length = len(chosen_word)
 
-print(f'\nPssst, the solution is {chosen_word}.')
+#print(f'\nPssst, the solution is {chosen_word}.')
 
 # Create a variable called 'lives' to keep track of the number of lives left. 
 # Set 'lives' to equal 6.
