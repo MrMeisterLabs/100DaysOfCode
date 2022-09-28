@@ -55,11 +55,11 @@ def decrypt(user_text, shift_index):
         # Join the letters together
         decrypted_text += new_alphabet
 
-    safety = input(f"Are you somewhere safe, with no-one behind or next to you? Type 'yes' or 'no':\n").lower()
+    safety = input(f"\nAre you somewhere safe, with no-one behind or next to you? Type 'yes' or 'no':\n").lower()
     if safety == "yes":    
         print(f"The encrypted message is: {decrypted_text}. Clear the session before you leave.")
     else:
-        print("Please go to a safe place before you run the program again.")
+        print(f"\nPlease go to a safe place before you run the program again.")
 
 # Call the encrypt function and pass in the user inputs.
 
