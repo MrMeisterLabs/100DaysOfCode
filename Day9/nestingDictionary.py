@@ -20,3 +20,10 @@ travel_log = [
         "total_visits" : 9}
 
 ]
+
+# Adding to a list inside a dictionary
+
+Details = {"Destination": "China", 
+           "Nationality": "Italian", "Age": []}
+Details["Age"] += [20, "Twenty"]
+print(Details)
