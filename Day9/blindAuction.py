@@ -1,6 +1,6 @@
 from replit import clear
 from art import logo
-from termcolor import colored
+from termcolor import cprint
 
 print(logo)
 print("Welcome to the Auction")
@@ -10,13 +10,14 @@ winning_bid = 0
 
 def winning_bidder(bidding_record):
     winning_bid = 0
-    
+    winner = ""
+
     for bidder in bidding_record:
         bid_amount = bidding_record[bidder]
         if bid_amount > winning_bid:
             winning_bid = bid_amount
             winner = bidder
-    print(f"\n\nThe winning bid is {winning_bid}€ by {bidder}. Congrats {bidder}!")
+    print(f"\n\nThe winning bid is {winning_bid}€ by {winner}. Congrats {winner}!")
 
 
 while True:
@@ -32,7 +33,7 @@ while True:
     else:
         break
 
-print(auction_list)
+cprint(auction_list, "green")
 winning_bidder(bidding_record=auction_list)
 
 
