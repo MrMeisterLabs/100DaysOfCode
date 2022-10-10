@@ -53,3 +53,4 @@ for operation in operations:
     # If operation is equal to the operation_symbol, print "answer"
     if operation == operation_symbol:
         print(f"\n{num1} {operation_symbol} {num2} = {answer}")
+        print("Hello")
